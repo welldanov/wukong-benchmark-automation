@@ -6,7 +6,7 @@
 
 1. Установите [Black Myth: Wukong Benchmark Tool](https://store.steampowered.com/app/3132990/) и **один раз запустите его вручную**: при первом запуске пользователь принимает соглашение, игра создаёт файл настроек и компилирует шейдеры.
 2. Запустите Steam, закройте бенчмарк.
-3. Скачайте `WukongBenchmark.exe` из [Releases](../../releases/latest) и запустите. Программа запросит права администратора: настройки бенчмарка лежат в `Program Files`.
+3. Скачайте [WukongBenchmark.exe](https://github.com/welldanov/wukong-benchmark-automation/releases/latest/download/WukongBenchmark.exe) (или со страницы [Releases](https://github.com/welldanov/wukong-benchmark-automation/releases/latest)) и запустите. Программа запросит права администратора: настройки бенчмарка лежат в `Program Files`.
 4. Около 8 минут не трогайте мышь и клавиатуру: инструмент сам управляет окном игры.
 5. Отчёт выводится в окне программы и сохраняется в `results/<дата_время>/report.md` рядом с exe.
 
