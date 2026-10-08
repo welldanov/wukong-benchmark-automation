@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Full": {
+      "commandName": "Project"
+    },
+    "CPU only": {
+      "commandName": "Project",
+      "commandLineArgs": "--only cpu"
+    },
+    "GPU only": {
+      "commandName": "Project",
+      "commandLineArgs": "--only gpu"
+    }
+  }
+}

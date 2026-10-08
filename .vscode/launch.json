@@ -1,0 +1,38 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Full (CPU + GPU)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/WukongBenchmark/bin/Debug/net10.0-windows10.0.19041.0/WukongBenchmark.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "CPU only",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/WukongBenchmark/bin/Debug/net10.0-windows10.0.19041.0/WukongBenchmark.exe",
+      "args": ["--only", "cpu"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "GPU only",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/WukongBenchmark/bin/Debug/net10.0-windows10.0.19041.0/WukongBenchmark.exe",
+      "args": ["--only", "gpu"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

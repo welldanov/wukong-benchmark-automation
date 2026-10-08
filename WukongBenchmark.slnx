@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WukongBenchmark/WukongBenchmark.csproj" />
+  </Folder>
+</Solution>
